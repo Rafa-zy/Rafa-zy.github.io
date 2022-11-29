@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/seal_icon.png">
-</heads>
+</head>
 
 <body>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -20,15 +20,13 @@
               <p style="text-align:center">
                 <name>Zongyu Lin「林宗裕」</name>
               </p>
-              <p>I am a graduated student at Tsinghua University. Luckily, I have worked with <a href="https//kimiyoung.github.io/">Prof. Zhilin Yang</a>, <a href="http://fi.ee.tsinghua.edu.cn/~liyong/">Prof. Yong Li</a>, <a href="http://www.cs.umd.edu/~hjs/">Prof. Hanan Samet</a> and <a href="https://infolab.usc.edu/Shahabi/index.html">Prof. Cyrus Shahabi</a>.
-              <p>My research interest lies broadly in natural language processing, data mining and general machine learning. Most Recently, I am interested in (1) exploring the generalization of big language models as well as (2) deep generative model and its applications on content generation. In a nutshell, my ultimate goal is to narrow the gap between AI techniques and real-world applications.
+              <p>I am a graduated student at Tsinghua University, advised by <a href="http://fi.ee.tsinghua.edu.cn/~liyong/">Prof. Yong Li</a>.
               <p>I have been a research assistant in Future Communications and Internet Lab, Tsinghua University, advised by <a href="http://fi.ee.tsinghua.edu.cn/~liyong/">Prof. Yong Li</a> since Fall 2018. In Fall 2019, I was fortunate enough to collaborate with the Distinguished University Professor <a href="http://www.cs.umd.edu/~hjs/">Prof. Hanan Samet</a> at University of Maryland. In Spring 2020, I was lucky to work under the supervision of <a href="https://infolab.usc.edu/Shahabi/">Prof. Cyrus Shahabi</a> from University of Southern California. In Summer 2020, I was a machine learning researcher intern under the supervision of <a href="https://sites.google.com/view/danicaxiao/home">Dr. Cao Xiao</a> from IQVIA and <a href="http://www.sunlab.org/">Prof. Jimeng Sun</a> from UIUC.
-              <!-- <p>Specifically, you can know more details about my previous research projects through this <a href="https://youtu.be/Er5yZPITOHY">two-minute video</a>. -->
-                <!--<p>I am a staff research scientist at <a href="https://ai.google/research">Google Research</a>, where I work on computer vision and machine learning.-->
-              <!-- <p>I am looking forward to pursuing a Ph.D/M.S. degree on machine learning, data mining and related areas starting from Fall 2021. Specifically, you can know more details about my previous research projects through this <a href="https://youtu.be/Er5yZPITOHY">two-minute video</a>. -->
+              <!--<p>I am a staff research scientist at <a href="https://ai.google/research">Google Research</a>, where I work on computer vision and machine learning.-->
+              <p>I am looking forward to pursuing a Ph.D/M.S. degree on machine learning, data mining and related areas starting from Fall 2021. Specifically, you can know more details about my previous research projects through this <a href="https://youtu.be/Er5yZPITOHY">two-minute video</a>.
               </p>
               <p>
-                Email: lzyxx17 [at] gmail.com
+                Email: lin-zy17 [at] tsinghua.edu.cn
               </p>
               <p style="text-align:left">
                 <!--<a href="lin-zy17@mails.tsinghua.edu.cn">Email</a> &nbsp/&nbsp-->
@@ -48,8 +46,8 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research Topic</heading>
-              <p>My research interest lies broadly in natural language processing, data mining and general machine learning. Most Recently, I am interested in (1) exploring the generalization of big language models as well as (2) deep generative model and its applications on content generation. In a nutshell, my ultimate goal is to narrow the gap between AI techniques and real-world applications.
-                Previously, I have done research work in machine learning, knowledge graph, graph representation learning, spatio-temporal data mining and ubiquitous computing.
+              <p>
+                I'm broadly interested in machine learning, knowledge graph, graph representation learning, spatio-temporal data mining and ubiquitous computing.
                 <!--Representative papers are <span class="highlight">highlighted</span>.-->
               </p>
             </td>
@@ -57,251 +55,7 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <td style="padding:20px">
-            <heading>Recent Work</heading>
-            <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='dualrefl_image'>
-                    <img src='images/UD-2.png' width="160"></div>
-                  <img src='images/UD-1.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function dualrefl_start() {
-                    document.getElementById('dualrefl_image').style.opacity = "1";
-                  }
-
-                  function dualrefl_stop() {
-                    document.getElementById('dualrefl_image').style.opacity = "0";
-                  }
-                  dualrefl_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338"> -->
-                  <papertitle>A Universal Discriminator for Zero-Shot Generalization</papertitle>
-                <!-- </a> -->
-                <br>
-                Haike Xu,
-                <strong>Zongyu Lin</strong>,
-                Jing Zhou,
-                Yanan Zheng, Zhilin Yang
-                 <br>
-                <em>Accepted by Findings of EMNLP 2022, but have been withdrawn</em>
-                <br>
-                <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338">paper</a> -->
-                <p></p>
-                <p>
-                  Generative modeling has been the dominant approach for large-scale pretraining and zero-shot generalization. In this work, we challenge this convention by showing that discriminative approaches perform substantially better than generative ones on a large number of NLP tasks. Technically, we train a single discriminator to predict whether a text sample comes from the true data distribution, similar to GANs. Since many NLP tasks can be formulated as selecting from a few options, we use this discriminator to predict the option with the highest probability. This simple formulation achieves state-of-the-art zero-shot results on the T0 benchmark, outperforming T0 by 16.0%, 7.8%, and 11.5% respectively on different scales.
-                  Meanwhile, our approach requires minimal prompting efforts, which largely improves robustness and is essential for real-world applications.
-                </p>
-              </td>
-            </tr>
-
-
-             <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='dualrefl_image'>
-                    <img src='images/improvet0-2.png' width="160"></div>
-                  <img src='images/improvet0-1.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function dualrefl_start() {
-                    document.getElementById('dualrefl_image').style.opacity = "1";
-                  }
-
-                  function dualrefl_stop() {
-                    document.getElementById('dualrefl_image').style.opacity = "0";
-                  }
-                  dualrefl_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338"> -->
-                  <papertitle>NOT ALL TASKS ARE BORN EQUAL: UNDERSTANDING ZERO-SHOT GENERALIZATION</papertitle>
-                <!-- </a> -->
-                <br>
-                Jing Zhou,
-                <strong>Zongyu Lin</strong>,
-                Yanan Zheng, Zhilin Yang
-                 <br>
-                <em>Submitted to ICLR, scored 8,6,5,5</em>, 2023
-                <br>
-                <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338">paper</a> -->
-                <p></p>
-                <p>
-                  Recent work has achieved remarkable zero-shot performance with multi-task prompted pretraining, but little has been understood. For the first time, we show
-                  that training on a small number of key tasks beats using all the training tasks,
-                  while removing these key tasks substantially hurts performance. We also find that
-                  these key tasks are mostly question answering (QA) tasks. We design a shuffle
-                  experiment to further show that training on these QA tasks leads to better cross-task
-                  generalization in multi-task learning under various training/test task splits. These
-                  novel findings combined deepen our understanding about zero-generalization—
-                  training on certain tasks such as QA encodes general knowledge transferable to a
-                  wide range of tasks, which explains the improved zero-shot performance in recent
-                  progress. In addition, to automate this procedure, we devise a method to identify
-                  and upsample key training tasks without observing the test tasks based on cross
-                  validation. Empirically, our approach achieves improved results across various
-                  model scales and tasks.
-                </p>
-              </td>
-            </tr>
-
-            <!-- <heading>Publications</heading> -->
-             <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='dualrefl_image'>
-                    <img src='images/sent-2.png' width="160"></div>
-                  <img src='images/sent-1.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function dualrefl_start() {
-                    document.getElementById('dualrefl_image').style.opacity = "1";
-                  }
-
-                  function dualrefl_stop() {
-                    document.getElementById('dualrefl_image').style.opacity = "0";
-                  }
-                  dualrefl_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338"> -->
-                  <papertitle>Learning to Detect Noisy Labels Using Model-Based Features</papertitle>
-                <!-- </a> -->
-                <br>
-                <strong>Zongyu Lin*</strong>,
-                Zhihao Wang*
-                Peiqi Liu, Guidong Zheng, Junjie Wen, Xianxin Chen, Yujun Chen, Zhilin Yang
-                (* First Co-Authors)
-                <br>
-                <em>Findings of EMNLP</em>, 2022 (To Appear)
-                <br>
-                <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338">paper</a> -->
-                <p></p>
-                <p>
-                  Label noise is ubiquitous in various machine learning scenarios such as self-labeling with model predictions and erroneous data annotation. Many existing approaches are based on heuristics such as sample losses, which might not be flexible enough to achieve optimal solutions. Meta learning based methods address this issue by learning a data selection function, but can be hard to optimize. In light of these pros and cons, we propose SENT (Selection-Enhanced Noisy label Training) that does not rely on meta learning while having the flexibility of being data-driven. SENT transfers the noise distribution to a clean set and trains a model to distinguish noisy labels from clean ones using model-based features. Empirically, on a wide range of tasks including text classification and speech recognition, SENT improves performance over strong baselines under the settings of self-training and label corruption.
-                </p>
-              </td>
-            </tr>
-            <td style="padding:20px">
-              <heading>Publications</heading>
-             <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='dualrefl_image'>
-                    <img src='images/sent-2.png' width="160"></div>
-                  <img src='images/sent-1.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function dualrefl_start() {
-                    document.getElementById('dualrefl_image').style.opacity = "1";
-                  }
-
-                  function dualrefl_stop() {
-                    document.getElementById('dualrefl_image').style.opacity = "0";
-                  }
-                  dualrefl_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338"> -->
-                  <papertitle>Learning to Detect Noisy Labels Using Model-Based Features</papertitle>
-                <!-- </a> -->
-                <br>
-                <strong>Zongyu Lin*</strong>,
-                Zhihao Wang*
-                Peiqi Liu, Guidong Zheng, Junjie Wen, Xianxin Chen, Yujun Chen, Zhilin Yang
-                (* First Co-Authors)
-                <br>
-                <em>Findings of EMNLP</em>, 2022 (To Appear)
-                <br>
-                <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338">paper</a> -->
-                <p></p>
-                <p>
-                  Label noise is ubiquitous in various machine learning scenarios such as self-labeling with model predictions and erroneous data annotation. Many existing approaches are based on heuristics such as sample losses, which might not be flexible enough to achieve optimal solutions. Meta learning based methods address this issue by learning a data selection function, but can be hard to optimize. In light of these pros and cons, we propose SENT (Selection-Enhanced Noisy label Training) that does not rely on meta learning while having the flexibility of being data-driven. SENT transfers the noise distribution to a clean set and trains a model to distinguish noisy labels from clean ones using model-based features. Empirically, on a wide range of tasks including text classification and speech recognition, SENT improves performance over strong baselines under the settings of self-training and label corruption.
-                </p>
-              </td>
-            </tr>
-             <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='dualrefl_image'>
-                    <img src='images/hagen-1.png' width="160"></div>
-                  <img src='images/hagen-2.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function dualrefl_start() {
-                    document.getElementById('dualrefl_image').style.opacity = "1";
-                  }
-
-                  function dualrefl_stop() {
-                    document.getElementById('dualrefl_image').style.opacity = "0";
-                  }
-                  dualrefl_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338">
-                  <papertitle>Hagen: Homophily-aware graph convolutional recurrent network for crime forecasting</papertitle>
-                </a>
-                <br>
-                <strong>Zongyu Lin*</strong>,
-                Chenyu Wang*,
-                Guozhen Zhang, 
-                Xiaochen Yang, 
-                Jiao Sun, Mingxuan Yue, Cyrus Shahabi
-                (* First Co-Authors)
-                <br>
-                <em>Proceedings of the AAAI Conference on Artificial Intelligence</em>, 2022
-                <br>
-                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338">paper</a>
-                <p></p>
-                <p>
-                  We propose an end-to-end graph convolutional recurrent network called HAGEN with several novel designs for crime prediction. Specifically, our framework could jointly capture the crime correlation between regions and the temporal crime dynamics by combining an adaptive region graph learning module with the Diffusion Convolution Gated Recurrent Unit (DCGRU). Based on the homophily assumption of GNN (i.e., graph convolution works better where neighboring nodes share the same label), we propose a homophily-aware constraint to regularize the optimization of the region graph so that neighboring region nodes on the learned graph share similar crime patterns.
-                </p>
-              </td>
-            </tr>
-             <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='dualrefl_image'>
-                    <img src='images/vehicle-2.png' width="160"></div>
-                  <img src='images/vehicle-1.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function dualrefl_start() {
-                    document.getElementById('dualrefl_image').style.opacity = "1";
-                  }
-
-                  function dualrefl_stop() {
-                    document.getElementById('dualrefl_image').style.opacity = "0";
-                  }
-                  dualrefl_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://dl.acm.org/doi/abs/10.1145/3474717.3483987">
-                  <papertitle>Vehicle Trajectory Recovery on Road Network Based on Traffic Camera Video Data</papertitle>
-                </a>
-                <br>
-                <strong>Zongyu Lin</strong>,
-                Guozhen Zhang, 
-                Zhiqun He, 
-                Jie Feng, 
-                Wei Wu, 
-                <a href="http://fi.ee.tsinghua.edu.cn/~liyong/">Yong Li</a>
-                <br>
-                <em>Proceedings of the 29th International Conference on Advances in Geographic Information Systems</em>, 2021
-                <br>
-                <a href="https://dl.acm.org/doi/pdf/10.1145/3411807">paper</a>
-                <p></p>
-                <p>
-                  We propose a general system to recover vehicle trajectories at the level of the road intersection, where a novel iterative framework is developed to combine both vehicle clustering and trajectory recovery tasks.
-                </p>
-              </td>
-            </tr>
+             <heading>Publications</heading>
              <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
                <td style="padding:20px;width:25%;vertical-align:middle">
                  <div class="one">
@@ -321,9 +75,10 @@
                  </script>
                </td>
                <td style="padding:20px;width:75%;vertical-align:middle">
-                 <a href="https://dl.acm.org/doi/abs/10.1145/3432229">
+                 <!--<a href="http://sniklaus.com/dualref">
                    <papertitle>HealthWalks: Sensing Fine-grained Individual Health Condition via Mobility Data</papertitle>
-                 </a>
+                 </a>-->
+                 <papertitle>HealthWalks: Sensing Fine-grained Individual Health Condition via Mobility Data</papertitle>
                  <br>
                  <strong>Zongyu Lin</strong>,
                  Shiqing Lyu,
@@ -333,10 +88,10 @@
                  <a href="http://www.cs.umd.edu/~hjs/">Hanan Samet</a>,
                  <a href="http://fi.ee.tsinghua.edu.cn/~liyong/">Yong Li</a>
                  <br>
-                 <em>In ACM International Joint Conference on Pervasive and Ubiquitous Computing (UBICOMP)</em>, 2020
+                 <em>In ACM International Joint Conference on Pervasive and Ubiquitous Computing (UBICOMP)</em>, 2020 (To appear)
                  <br>
-                 <!-- <a href="http://sniklaus.com/dualref">project page</a> / -->
-                 <a href="https://dl.acm.org/doi/abs/10.1145/3432229">paper</a>
+                 <!--<a href="http://sniklaus.com/dualref">project page</a> /
+                 <a href="https://arxiv.org/abs/2010.00702">arXiv</a>-->
                  <p></p>
                  <p>
                    We propose a DFA-based model which can generate interpretable features automatically from raw mobility data for fine-grained health sensing.
@@ -431,17 +186,6 @@
             </td>
           </tr>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Experience</heading>
-              <p>
-                <strong>Quant Researcher Intern</strong>, Ubiquant, Top Hedge Fund in China. 2020
-              <p>  <strong>Research Intern</strong>, Sensetime, China, 2021
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <heading>Selected Awards</heading>
@@ -458,7 +202,7 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <heading>Hobbies</heading>
                 <p>
-                  <strong>Sports!</strong> I really enjoy playing ballgames like football and tennis. I am a big fan of Lionel Messi, Rafael Nadal and Stephen Curry! Also, I love running, swimming and hiking.
+                  <strong>Sports!</strong> I really enjoy playing ballgames like football and tennis. I am a big fan of Lionel Messi and Rafael Nadal. Also, I love running, swimming and hiking.
                 <!--<p>  <strong>Ballroom Dancing</strong>, Tsinghua University. 2020-->
 
                 </p>
