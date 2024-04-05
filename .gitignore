@@ -1,0 +1,11 @@
+env/
+.vscode/
+main/__pycache__/
+*.zip
+*.idea
+*.DS_Store
+*.ipynb_checkpoints
+*.pyc
+*__pycache__
+
+logs*
