@@ -46,9 +46,12 @@
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <heading>News</heading>
+                <li style="background-color: yellow;">
+                  2025-2 Check our latest paper on efficient Inference-time Scaling + Language Agents using process reward modeling at <a href="https://arxiv.org/abs/2502.02584">preprint</a>. </li>
                   <li style="background-color: yellow;">
                     2024-12 Check our latest paper from Apple on transparent video generation recipe towards Sora is available now at <a href="https://huggingface.co/papers/2412.07730">preprint</a>. </li>
-                  <li>2024-12 Check our latest paper about egocentric and long video understanding: MM-Ego: Towards Building Egocentric Multimodal LLMs is available now at <a href="https://arxiv.org/abs/2410.07177">preprint</a>. </li>
+                    <li>2025-1 Two papers accepted by ICLR 2025~ Great thanks to all the collaborators!</li>
+
                   <li>2024-11 Our recent paper on benchmarking physical commonsense alignment of video generation: VideoPhy: Evaluating Physical Commonsense In Video Generation, get accepted by Vision-Language@NIPS 2024 as **Oral**, please check our <a href="https://arxiv.org/pdf/2406.03520">preprint</a>.</li>
                   <li>2024-6 Our new paper on contradiction retrieval: SPARSECL: Sparse Contrastive Learning for
                     Contradiction Retrieval is available now at <a href="https://arxiv.org/pdf/2406.10746">preprint</a>. </li>
@@ -59,6 +62,7 @@
             </tr>
           </tbody>
         </table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -79,6 +83,7 @@
             </td>
             
         </tr>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -95,6 +100,46 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <td style="padding:20px">
             <heading>Recent Work</heading>
+
+
+            <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()"></tr>
+              <td style="padding:20px; width:45%; vertical-align:middle">
+                <div class="one">
+                  <div class="two" id="dualrefl_image">
+                    <img src="images/qlass2.png" width="320">
+                  </div>
+                  <img src="images/qlass1.png" width="320">
+                </div>
+                <script type="text/javascript">
+                  let showFirst = false; 
+                  
+                  setInterval(() => {
+                    showFirst = !showFirst; 
+                    document.getElementById('dualrefl_image').style.opacity = showFirst ? "1" : "0";
+                  }, 2000);
+            
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                </script>
+              </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle;background-color: yellow;">
+              <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20338"> -->
+                <papertitle>QLASS: Boosting Language Agent Inference via Q-Guided Stepwise Search
+                </papertitle>
+              <!-- </a> -->
+              <br>
+              <strong>Zongyu Lin*</strong>,Yao Tang*, Xingcheng Yao*, Da Yin*, Ziniu Hu, Yizhou Sun, Kai-Wei Chang
+               <br>
+               *Equal Contribution<br>
+              <em>arXiv</em>, 2025
+              <br>
+              <a href="https://arxiv.org/pdf/2502.02584">preprint, </a></a>code and model checkpoints will come soon
+              <p></p>
+              <p>
+                Interested in the combination of Inference time scaling + LLM Agent?🤖💭 Announcing QLASS (Q-guided Language Agent Stepwise Search), a framework that supercharges language agents at inference time. ⚡In this work, we build a process reward model to guide open language agents on complex interactive tasks by estimating the Q-value of each step, without any human annotation for process rewards.
+              </p>
+            </td>
+          </tr>
 
             <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()"></tr>
               <td style="padding:20px; width:45%; vertical-align:middle">
@@ -423,8 +468,8 @@
                   <papertitle>Hagen: Homophily-aware graph convolutional recurrent network for crime forecasting</papertitle>
                 </a>
                 <br>
-                <strong>Zongyu Lin*</strong>,
                 Chenyu Wang*,
+                <strong>Zongyu Lin*</strong>,
                 Guozhen Zhang, 
                 Xiaochen Yang, 
                 Jiao Sun, Mingxuan Yue, Cyrus Shahabi
@@ -620,6 +665,39 @@
               </td>
             </tr>
           </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <heading>Services</heading>
+                <p>
+                  <strong>Teaching Assistant</strong></p>
+                  <p>
+                  &bull; Natural Language Processing Seminar(Spring 2022). Teaching assistant. Instructor: Prof. Zhilin Yang. Tsinghua University
+                </p> 
+                <p>
+                <p>
+                  <strong>Mentoring </strong> </p>
+                  <p>
+                  &bull; Xiaohan Song (2024), undergraduate at UCLA</p> 
+                  &bull; Yao Tang (2024), undergraduate at SJTU</p> 
+                  &bull; Guang Yang (2022), undergraduate at Tsinghua University, now a PhD at UW</p> 
+                  &bull; Haike Xu (2022), undergraduate at Tsinghua University, now a PhD at MIT</p> 
+                  &bull; Chenyu Wang (2021), undergraduate at Tsinghua University, now a PhD at MIT</p> 
+                <p>
+                  <p>
+                    <strong>Reviewer </strong> </p>
+                    <p>
+                    &bull; 2025: ICML, ICLR, ACL</p> 
+                    &bull; 2024: NeurIPS, ACL, EMNLP</p>
+                    &bull; 2023: ACL, EMNLP</p> 
+                  <p>
+     
+                </p>
+              </td>
+              
+          </tr>
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
